@@ -24,9 +24,15 @@ body {
     font-size: 1.25rem;
     margin-top: 16px;
     color: hsl(218, 44%, 22%);
+    max-width: 100%;     /* No se pasa del contenedor */
+    width: 30ch
+    
 }
 
 .card p {
     font-size: 0.9375rem;
+    text-align: center;
     color: hsl(220, 15%, 55%);
+    max-width: 100%;     /* No se pasa del contenedor */
+    
 }
